@@ -134,7 +134,7 @@ router.post("/forgot-password", async (req, res) => {
     await user.save();
 
     // Reset link
-    const resetLink = `http://localhost:5173/reset-password/${resetToken}`;
+    const resetLink = `https://voltechservice.netlify.app/reset-password/${resetToken}`;
     console.log("Reset Link:", resetLink);
 
     await transporter.sendMail({
@@ -241,7 +241,9 @@ router.get(
   async (req, res) => {
     // Check if user is blocked
     if (req.user.isBlocked) {
-      return res.redirect(`http://localhost:5173/login?error=blocked`);
+      return res.redirect(
+        `https://voltechservice.netlify.app/login?error=blocked`,
+      );
     }
     const token = jwt.sign(
       { userId: req.user._id, role: req.user.role },
@@ -252,7 +254,7 @@ router.get(
     );
 
     res.redirect(
-      `http://localhost:5173/google-success?token=${token}&userId=${req.user._id}&userName=${req.user.userName}&email=${req.user.email}&role=${req.user.role}`,
+      `https://voltechservice.netlify.app/google-success?token=${token}&userId=${req.user._id}&userName=${req.user.userName}&email=${req.user.email}&role=${req.user.role}`,
     );
   },
 );
