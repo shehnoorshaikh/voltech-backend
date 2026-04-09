@@ -1,6 +1,9 @@
+const TECH_IMG_BASE =
+  "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774947592/TechServiceImages/";
+
 export const techData = [
   {
-    img: "/uploads/seed/TechServiceImages/ac-ser-img1.png",
+    img: TECH_IMG_BASE + "ac-ser-img1_vu6sku.png",
     title: "AC Installation",
     description:
       "Professional AC installation for efficient cooling and long-lasting performance.",
@@ -10,7 +13,7 @@ export const techData = [
     type: "AC Service",
   },
   {
-    img: "/uploads/seed/TechServiceImages/ac-ser-img2.png",
+    img: TECH_IMG_BASE + "ac-ser-img2_xr6m0i.png",
     title: "AC Uninstallation",
     description: "Safe and hassle-free AC removal and uninstallation service.",
     rating: 4,
@@ -19,7 +22,7 @@ export const techData = [
     type: "AC Service",
   },
   {
-    img: "/uploads/seed/TechServiceImages/ac-ser-img3.png",
+    img: TECH_IMG_BASE + "ac-ser-img3_i2kxmb.png",
     title: "Wiring Connection Setup",
     description:
       "Expert wiring and connection setup for smooth and reliable AC operation.",
@@ -29,7 +32,7 @@ export const techData = [
     type: "AC Service",
   },
   {
-    img: "/uploads/seed/TechServiceImages/ac-ser-img4.png",
+    img: TECH_IMG_BASE + "ac-ser-img4_kucsd4.png",
     title: "Cooling Problem Fixing",
     description: "Quick AC repair to restore optimal cooling and comfort.",
     rating: 4.5,
@@ -39,7 +42,7 @@ export const techData = [
     isPopular: true,
   },
   {
-    img: "/uploads/seed/TechServiceImages/ac-ser-img5.png",
+    img: TECH_IMG_BASE + "ac-ser-img5_xu87r1.png",
     title: "Water Leakage Fixing",
     description:
       "Efficient solution for AC water leakage issues to prevent damage.",
@@ -49,7 +52,7 @@ export const techData = [
     type: "AC Service",
   },
   {
-    img: "/uploads/seed/TechServiceImages/ac-ser-img6.png",
+    img: TECH_IMG_BASE + "ac-ser-img6_stubiq.png",
     title: "Noise Problem Fixing",
     description:
       "AC noise troubleshooting and repair for silent and smooth operation.",
@@ -59,7 +62,7 @@ export const techData = [
     type: "AC Service",
   },
   {
-    img: "/uploads/seed/TechServiceImages/ac-ser-img7.png",
+    img: TECH_IMG_BASE + "ac-ser-img7_q8049d.png",
     title: "Gas Pressure Check/Gas Leakage Check",
     description:
       "Accurate gas inspection and leak detection for safe AC performance.",
@@ -69,7 +72,7 @@ export const techData = [
     type: "AC Service",
   },
   {
-    img: "/uploads/seed/TechServiceImages/ac-ser-img8.png",
+    img: TECH_IMG_BASE + "ac-ser-img8_tnqabj.png",
     title: "Gas Top Up",
     description:
       "Fast and reliable AC gas refill service to restore cooling efficiency.",
@@ -79,7 +82,7 @@ export const techData = [
     type: "AC Service",
   },
   {
-    img: "/uploads/seed/TechServiceImages/ac-ser-img9.png",
+    img: TECH_IMG_BASE + "ac-ser-img9_kqr5ww.png",
     title: "Jet Pump Washing",
     description:
       "Thorough jet pump cleaning and maintenance for optimal water flow and performance.",
@@ -89,7 +92,7 @@ export const techData = [
     type: "AC Service",
   },
   {
-    img: "/uploads/seed/TechServiceImages/quickCheckTechImg.png",
+    img: TECH_IMG_BASE + "quickCheckTechImg_c1syfy.png",
     title: "QuickCheck",
     description:
       "Fast inspection & instant solution for your appliances or electrical issues.",
@@ -99,7 +102,7 @@ export const techData = [
     type: "AC Service",
   },
   {
-    img: "/uploads/seed/TechServiceImages/wm-ser-img1.png",
+    img: TECH_IMG_BASE + "wm-ser-img1_ncnjyz.png",
     title: "Machine not Work",
     description:
       "Quick troubleshooting and repair to get your washing machine running smoothly.",
@@ -109,7 +112,7 @@ export const techData = [
     type: "Washing Machine",
   },
   {
-    img: "/uploads/seed/TechServiceImages/wm-ser-img2.png",
+    img: TECH_IMG_BASE + "wm-ser-img2_c1rxjz.png",
     title: "Noise/Vibration Issue",
     description:
       "Fixing noisy or vibrating machines for silent and stable operation.",
@@ -119,7 +122,7 @@ export const techData = [
     type: "Washing Machine",
   },
   {
-    img: "/uploads/seed/TechServiceImages/wm-ser-img3.png",
+    img: TECH_IMG_BASE + "wm-ser-img3_y3nllv.png",
     title: "Water not draining",
     description:
       "Efficient solution for water drainage problems to keep your machine flowing.",
@@ -129,7 +132,7 @@ export const techData = [
     type: "Washing Machine",
   },
   {
-    img: "/uploads/seed/TechServiceImages/wm-ser-img4.png",
+    img: TECH_IMG_BASE + "wm-ser-img4_ugexo7.png",
     title: "Spinning Problem",
     description:
       "Expert repair for washing machine spinning issues to ensure thorough washing.",
@@ -140,7 +143,7 @@ export const techData = [
     isPopular: true,
   },
   {
-    img: "/uploads/seed/TechServiceImages/wm-ser-img5.png",
+    img: TECH_IMG_BASE + "wm-ser-img5_a5asat.png",
     title: "Drain pipe fitting",
     description:
       "Proper drain pipe installation and fixing for hassle-free water outflow.",
@@ -150,7 +153,7 @@ export const techData = [
     type: "Washing Machine",
   },
   {
-    img: "/uploads/seed/TechServiceImages/quickCheckTechImg.png",
+    img: TECH_IMG_BASE + "quickCheckTechImg_c1syfy.png",
     title: "QuickCheck",
     description:
       "Fast inspection & instant solution for your appliances or electrical issues.",
@@ -160,7 +163,7 @@ export const techData = [
     type: "Washing Machine",
   },
   {
-    img: "/uploads/seed/TechServiceImages/refrigerator-ser-img1.png",
+    img: TECH_IMG_BASE + "refrigerator-ser-img1_sw3uni.png",
     title: "Cooling Issue",
     description:
       "Fast refrigerator repair to restore optimal cooling and freshness.",
@@ -170,7 +173,7 @@ export const techData = [
     type: "Refrigerator",
   },
   {
-    img: "/uploads/seed/TechServiceImages/refrigerator-ser-img2.png",
+    img: TECH_IMG_BASE + "refrigerator-ser-img2_wvfhv1.png",
     title: "Water Leakage Issue",
     description:
       "Efficient solution for fridge water leakage to prevent mess and damage.",
@@ -180,7 +183,7 @@ export const techData = [
     type: "Refrigerator",
   },
   {
-    img: "/uploads/seed/TechServiceImages/refrigerator-ser-img3.png",
+    img: TECH_IMG_BASE + "refrigerator-ser-img3_o3kcmq.png",
     title: "Gas Refill",
     description:
       "Quick and safe fridge gas refill for proper cooling performance.",
@@ -190,7 +193,7 @@ export const techData = [
     type: "Refrigerator",
   },
   {
-    img: "/uploads/seed/TechServiceImages/quickCheckTechImg.png",
+    img: TECH_IMG_BASE + "quickCheckTechImg_c1syfy.png",
     title: "QuickCheck",
     description:
       "Fast inspection & instant solution for your appliances or electrical issues.",
@@ -200,7 +203,7 @@ export const techData = [
     type: "Refrigerator",
   },
   {
-    img: "/uploads/seed/TechServiceImages/ro-ser-img1.png",
+    img: TECH_IMG_BASE + "ro-ser-img1_ydbue2.png",
     title: "New RO Installation",
     description:
       "Professional RO installation for pure and safe drinking water.",
@@ -210,7 +213,7 @@ export const techData = [
     type: "Water Purifier",
   },
   {
-    img: "/uploads/seed/TechServiceImages/ro-ser-img2.png",
+    img: TECH_IMG_BASE + "ro-ser-img2_klqsun.png",
     title: "RO Uninstallation",
     description: "Safe and hassle-free RO uninstallation service.",
     rating: 3.5,
@@ -219,7 +222,7 @@ export const techData = [
     type: "Water Purifier",
   },
   {
-    img: "/uploads/seed/TechServiceImages/ro-ser-img3.png",
+    img: TECH_IMG_BASE + "ro-ser-img3_stoxrb.png",
     title: "RO Filter Replacement",
     description:
       "Quick RO filter replacement to ensure clean and healthy water.",
@@ -229,7 +232,7 @@ export const techData = [
     type: "Water Purifier",
   },
   {
-    img: "/uploads/seed/TechServiceImages/ro-ser-img4.png",
+    img: TECH_IMG_BASE + "geyser-ser-img4_gquane.png",
     title: "Water not filtering",
     description:
       "Efficient troubleshooting for RO water flow and filtration issues.",
@@ -240,7 +243,7 @@ export const techData = [
     isPopular: true,
   },
   {
-    img: "/uploads/seed/TechServiceImages/quickCheckTechImg.png",
+    img: TECH_IMG_BASE + "quickCheckTechImg_c1syfy.png",
     title: "QuickCheck",
     description:
       "Fast inspection & instant solution for your appliances or electrical issues.",
@@ -250,7 +253,7 @@ export const techData = [
     type: "Water Purifier",
   },
   {
-    img: "/uploads/seed/TechServiceImages/geyser-ser-img1.png",
+    img: TECH_IMG_BASE + "geyser-ser-img1_jkzrml.png",
     title: "New Geyser Installation",
     description: "Professional geyser setup for reliable hot water supply.",
     rating: 4.5,
@@ -260,7 +263,7 @@ export const techData = [
     isPopular: true,
   },
   {
-    img: "/uploads/seed/TechServiceImages/geyser-ser-img2.png",
+    img: TECH_IMG_BASE + "geyser-ser-img2_doj9yy.png",
     title: "Geyser Uninstallation",
     description: "Safe and hassle-free geyser removal service.",
     rating: 4,
@@ -269,7 +272,7 @@ export const techData = [
     type: "Geyser",
   },
   {
-    img: "/uploads/seed/TechServiceImages/geyser-ser-img3.png",
+    img: TECH_IMG_BASE + "geyser-ser-img3_bmrg6g.png",
     title: "Geyser Not Heating",
     description: "Quick repair for geysers that fail to heat water properly.",
     rating: 4,
@@ -278,7 +281,7 @@ export const techData = [
     type: "Geyser",
   },
   {
-    img: "/uploads/seed/TechServiceImages/geyser-ser-img4.png",
+    img: TECH_IMG_BASE + "geyser-ser-img4_gquane.png",
     title: "Geyser Leakage Issue",
     description: "Efficient solution to fix water leakage from geysers.",
     rating: 4,
@@ -287,7 +290,7 @@ export const techData = [
     type: "Geyser",
   },
   {
-    img: "/uploads/seed/TechServiceImages/geyser-ser-img5.png",
+    img: TECH_IMG_BASE + "geyser-ser-img5_mdypam.png",
     title: "Auto Cutoff Issue",
     description:
       "Expert repair for faulty geyser auto cutoff problems to ensure safety.",
@@ -297,7 +300,7 @@ export const techData = [
     type: "Geyser",
   },
   {
-    img: "/uploads/seed/TechServiceImages/quickCheckTechImg.png",
+    img: TECH_IMG_BASE + "quickCheckTechImg_c1syfy.png",
     title: "QuickCheck",
     description:
       "Fast inspection & instant solution for your appliances or electrical issues.",
@@ -307,7 +310,7 @@ export const techData = [
     type: "Geyser",
   },
   {
-    img: "/uploads/seed/TechServiceImages/oven-ser-img1.png",
+    img: TECH_IMG_BASE + "oven-ser-img1_zw5zoa.png",
     title: "Oven not Heating",
     description:
       "Fast repair to restore proper heating in your microwave oven.",
@@ -317,7 +320,7 @@ export const techData = [
     type: "Microwave Oven",
   },
   {
-    img: "/uploads/seed/TechServiceImages/oven-ser-img2.png",
+    img: TECH_IMG_BASE + "oven-ser-img2_czqvpl.png",
     title: "Buttons/Panel Not Working",
     description:
       "Expert fix for unresponsive microwave buttons or control panel.",
@@ -327,7 +330,7 @@ export const techData = [
     type: "Microwave Oven",
   },
   {
-    img: "/uploads/seed/TechServiceImages/oven-ser-img3.png",
+    img: TECH_IMG_BASE + "oven-ser-img3_jxwepn.png",
     title: "Sparking Issue",
     description:
       "Safe repair for microwave sparking problems to prevent hazards.",
@@ -337,7 +340,7 @@ export const techData = [
     type: "Microwave Oven",
   },
   {
-    img: "/uploads/seed/TechServiceImages/oven-ser-img4.png",
+    img: TECH_IMG_BASE + "oven-ser-img4_g2cdsy.png",
     title: "Electrical Connection Issue",
     description:
       "Reliable solution for microwave electrical connection faults.",
@@ -347,7 +350,7 @@ export const techData = [
     type: "Microwave Oven",
   },
   {
-    img: "/uploads/seed/TechServiceImages/quickCheckTechImg.png",
+    img: TECH_IMG_BASE + "quickCheckTechImg_c1syfy.png",
     title: "QuickCheck",
     description:
       "Fast inspection & instant solution for your appliances or electrical issues.",
@@ -357,7 +360,7 @@ export const techData = [
     type: "Microwave Oven",
   },
   {
-    img: "/uploads/seed/TechServiceImages/tv-ser-img1.png",
+    img: TECH_IMG_BASE + "tv-ser-img1_ycz3kg.png",
     title: "New TV Installation",
     description: "Professional TV setup for a perfect viewing experience.",
     rating: 4.5,
@@ -367,7 +370,7 @@ export const techData = [
     isPopular: true,
   },
   {
-    img: "/uploads/seed/TechServiceImages/tv-ser-img2.png",
+    img: TECH_IMG_BASE + "tv-ser-img2_qmjqol.png",
     title: "TV Uninstallation",
     description: "Safe and hassle-free TV removal service.",
     rating: 4,
@@ -376,7 +379,7 @@ export const techData = [
     type: "Television",
   },
   {
-    img: "/uploads/seed/TechServiceImages/tv-ser-img3.png",
+    img: TECH_IMG_BASE + "tv-ser-img3_wvawoh.png",
     title: "Display Problem",
     description: "Quick repair for blurry, flickering, or faulty TV display.",
     rating: 4,
@@ -385,7 +388,7 @@ export const techData = [
     type: "Television",
   },
   {
-    img: "/uploads/seed/TechServiceImages/tv-ser-img4.png",
+    img: TECH_IMG_BASE + "tv-ser-img4_j3xxfa.png",
     title: "Smart TV Remote Not Working",
     description: "Expert fix for unresponsive smart TV remotes.",
     rating: 4,
@@ -394,7 +397,7 @@ export const techData = [
     type: "Television",
   },
   {
-    img: "/uploads/seed/TechServiceImages/tv-ser-img5.png",
+    img: TECH_IMG_BASE + "tv-ser-img5_iutszb.png",
     title: "Lines on Screen",
     description:
       "Efficient solution to remove lines or distortions from your screen.",
@@ -405,7 +408,7 @@ export const techData = [
     isPopular: true,
   },
   {
-    img: "/uploads/seed/TechServiceImages/tv-ser-img6.png",
+    img: TECH_IMG_BASE + "tv-ser-img6_enotpw.png",
     title: "Speaker or Sound Problem",
     description: "Clear and reliable sound repair for TV speakers",
     rating: 4,
@@ -414,7 +417,7 @@ export const techData = [
     type: "Television",
   },
   {
-    img: "/uploads/seed/TechServiceImages/tv-ser-img7.png",
+    img: TECH_IMG_BASE + "tv-ser-img7_d5gdso.png",
     title: "LED TV Backlight Changing",
     description: "Fast backlight replacement for bright and even TV display.",
     rating: 4,
@@ -423,7 +426,7 @@ export const techData = [
     type: "Television",
   },
   {
-    img: "/uploads/seed/TechServiceImages/tv-ser-img8.png",
+    img: TECH_IMG_BASE + "tv-ser-img8_ycqakz.png",
     title: "Parts Replacement",
     description: "Genuine parts replacement to restore your TV’s performance.",
     rating: 4.5,
@@ -432,7 +435,7 @@ export const techData = [
     type: "Television",
   },
   {
-    img: "/uploads/seed/TechServiceImages/tv-ser-img9.png",
+    img: TECH_IMG_BASE + "tv-ser-img9_nflvik.png",
     title: "TV Software Update",
     description: "Smart software updates to keep your TV running smoothly.",
     rating: 4,
@@ -441,7 +444,7 @@ export const techData = [
     type: "Television",
   },
   {
-    img: "/uploads/seed/TechServiceImages/tv-ser-img10.png",
+    img: TECH_IMG_BASE + "tv-ser-img10_zjhfm6.png",
     title: "Connectivity Issue (WiFi/HDMI/USB)",
     description: "Reliable fix for WiFi, HDMI, or USB connectivity problems.",
     rating: 4,
@@ -450,7 +453,7 @@ export const techData = [
     type: "Television",
   },
   {
-    img: "/uploads/seed/TechServiceImages/quickCheckTechImg.png",
+    img: TECH_IMG_BASE + "quickCheckTechImg_c1syfy.png",
     title: "QuickCheck",
     description:
       "Fast inspection & instant solution for your appliances or electrical issues.",

@@ -1,6 +1,12 @@
+const ELECT_IMG_BASE =
+  "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946417/ElectServiceImages/";
+
+const TECH_IMG_BASE =
+  "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774947592/TechServiceImages/";
+
 export const elecPopularData = [
   {
-    img: "/uploads/seed/ElectServiceImages/fan-ser-img1.png",
+    img: ELECT_IMG_BASE + "fan-ser-img1_fecqpn.png",
     title: "Cieling fan",
     category: "electPopular",
     description:
@@ -11,7 +17,7 @@ export const elecPopularData = [
     type: "electPopular",
   },
   {
-    img: "/uploads/seed/ElectServiceImages/light-ser-img2.png",
+    img: ELECT_IMG_BASE + "light-ser-img2_vvmzup.png",
     title: "LED strip light",
     category: "electPopular",
     description:
@@ -22,7 +28,7 @@ export const elecPopularData = [
     type: "electPopular",
   },
   {
-    img: "/uploads/seed/ElectServiceImages/MCB-ser-img2.png",
+    img: ELECT_IMG_BASE + "MCB-ser-img2_v4ecqf.png",
     title: "Double phase MCB",
     category: "electPopular",
     description:
@@ -33,7 +39,7 @@ export const elecPopularData = [
     type: "electPopular",
   },
   {
-    img: "/uploads/seed/ElectServiceImages/wl-ser-img2.png",
+    img: ELECT_IMG_BASE + "wl-ser-img2_bncuaa.png",
     title: "Up & Down wall light",
     category: "electPopular",
     description:
@@ -44,7 +50,7 @@ export const elecPopularData = [
     type: "electPopular",
   },
   {
-    img: "/uploads/seed/ElectServiceImages/wir-ser-img1.png",
+    img: ELECT_IMG_BASE + "wir-ser-img1_xdvca5.png",
     title: "Short circuit wiring",
     category: "electPopular",
     description:
@@ -55,7 +61,7 @@ export const elecPopularData = [
     type: "electPopular",
   },
   {
-    img: "/uploads/seed/ElectServiceImages/cd-ser-img1.png",
+    img: ELECT_IMG_BASE + "cd-ser-img1_q0nucv.png",
     title: "Crystal chandelier",
     category: "electPopular",
     description:
@@ -69,7 +75,7 @@ export const elecPopularData = [
 
 export const techPopularData = [
   {
-    img: "/uploads/seed/TechServiceImages/ac-ser-img4.png",
+    img: TECH_IMG_BASE + "ac-ser-img4_kucsd4.png",
     title: "Cooling Problem Fixing",
     category: "techPopular",
     description: "Quick AC repair to restore optimal cooling and comfort.",
@@ -79,7 +85,7 @@ export const techPopularData = [
     type: "techPopular",
   },
   {
-    img: "/uploads/seed/TechServiceImages/geyser-ser-img1.png",
+    img: TECH_IMG_BASE + "geyser-ser-img1_jkzrml.png",
     title: "New Geyser Installation",
     category: "techPopular",
     description: "Professional geyser setup for reliable hot water supply.",
@@ -89,7 +95,7 @@ export const techPopularData = [
     type: "techPopular",
   },
   {
-    img: "/uploads/seed/TechServiceImages/tv-ser-img5.png",
+    img: TECH_IMG_BASE + "tv-ser-img5_iutszb.png",
     title: "Lines on Screen",
     category: "techPopular",
     description:
@@ -100,7 +106,7 @@ export const techPopularData = [
     type: "techPopular",
   },
   {
-    img: "/uploads/seed/TechServiceImages/wm-ser-img4.png",
+    img: TECH_IMG_BASE + "wm-ser-img4_ugexo7.png",
     title: "Spinning Problem",
     category: "techPopular",
     description:
@@ -111,7 +117,7 @@ export const techPopularData = [
     type: "techPopular",
   },
   {
-    img: "/uploads/seed/TechServiceImages/ro-ser-img4.png",
+    img: TECH_IMG_BASE + "ro-ser-img4_b27hrg.png",
     title: "Water not filtering",
     category: "techPopular",
     description:
@@ -122,7 +128,7 @@ export const techPopularData = [
     type: "techPopular",
   },
   {
-    img: "/uploads/seed/TechServiceImages/tv-ser-img1.png",
+    img: TECH_IMG_BASE + "tv-ser-img1_ycz3kg.png",
     title: "New TV Installation",
     category: "techPopular",
     description: "Professional TV setup for a perfect viewing experience.",
