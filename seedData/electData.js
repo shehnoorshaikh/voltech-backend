@@ -10,6 +10,7 @@ export const electData = [
     button: "Add to cart",
     type: "Fan Service",
     isPopular: true,
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946329/ElectServiceImages/fan-ser-img2_izai1d.png",
@@ -21,6 +22,7 @@ export const electData = [
     price: "349",
     button: "Add to cart",
     type: "Fan Service",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946329/ElectServiceImages/fan-ser-img3_ndfeoe.png",
@@ -32,6 +34,7 @@ export const electData = [
     price: "199",
     button: "Add to cart",
     type: "Fan Service",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946329/ElectServiceImages/fan-ser-img4_agst2v.png",
@@ -43,6 +46,7 @@ export const electData = [
     price: "199",
     button: "Add to cart",
     type: "Fan Service",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946330/ElectServiceImages/fan-ser-img5_ykgqmc.png",
@@ -53,6 +57,7 @@ export const electData = [
     price: "120",
     button: "Add to cart",
     type: "Fan Service",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946329/ElectServiceImages/quickCheckElectImg_q05jgo.png",
@@ -64,6 +69,7 @@ export const electData = [
     price: "299",
     button: "Add to cart",
     type: "Fan Service",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946408/ElectServiceImages/light-ser-img1_fem0to.png",
@@ -75,6 +81,7 @@ export const electData = [
     price: "149",
     button: "Add to cart",
     type: "Light Service",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1775660399/ElectServiceImages/wl-ser-img8_p5axgp.png",
@@ -85,6 +92,7 @@ export const electData = [
     price: "149",
     button: "Add to cart",
     type: "Light Service",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946408/ElectServiceImages/light-ser-img2_mfu5zc.png",
@@ -93,10 +101,12 @@ export const electData = [
       "Installation and setup of decorative LED strip lighting for homes and offices.",
     rating: 4.5,
     duration: "30 mins",
-    price: "49 per meter",
+    price: "49",
     button: "Add to cart",
     type: "Light Service",
     isPopular: true,
+    priceType: "unit",
+    unit: "per meter",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946408/ElectServiceImages/light-ser-img3_xqsmql.png",
@@ -105,9 +115,11 @@ export const electData = [
       "Sleek profile light installation and repair for modern interior lighting.",
     rating: 4,
     duration: "30 mins",
-    price: "99 per meter",
+    price: "99",
     button: "Add to cart",
     type: "Light Service",
+    priceType: "unit",
+    unit: "per meter",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946409/ElectServiceImages/light-ser-img4_ycnr2a.png",
@@ -116,9 +128,11 @@ export const electData = [
       "Adjustable track lighting installation to highlight and enhance your home or workspace.",
     rating: 4.5,
     duration: "30 mins",
-    price: "349 per meter",
+    price: "349",
     button: "Add to cart",
     type: "Light Service",
+    priceType: "unit",
+    unit: "per meter",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946409/ElectServiceImages/light-ser-img5_kmqlmx.png",
@@ -130,6 +144,7 @@ export const electData = [
     price: "149",
     button: "Add to cart",
     type: "Light Service",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946409/ElectServiceImages/light-ser-img6_djj0pd.png",
@@ -141,6 +156,7 @@ export const electData = [
     price: "149",
     button: "Add to cart",
     type: "Light Service",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946407/ElectServiceImages/hl-ser-img2_gvzq27.png",
@@ -149,9 +165,13 @@ export const electData = [
       "Installation of multi-pendant lighting to create a beautiful and decorative lighting centerpiece.",
     rating: 5,
     duration: "30 mins",
-    price: "249-699",
     button: "Add to cart",
     type: "Light Service",
+    priceType: "range",
+    priceRange: {
+      min: 249,
+      max: 699,
+    },
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946416/ElectServiceImages/wl-ser-img1_bfdvyy.png",
@@ -160,9 +180,13 @@ export const electData = [
       "Elegant wall sconce installation to enhance decor with soft and stylish lighting.",
     rating: 4,
     duration: "30 mins",
-    price: "199-499",
     button: "Add to cart",
     type: "Light Service",
+    priceType: "range",
+    priceRange: {
+      min: 199,
+      max: 499,
+    },
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946404/ElectServiceImages/cd-ser-img1_wuubgi.png",
@@ -171,10 +195,14 @@ export const electData = [
       "Elegant crystal chandelier installation to add luxury and dazzling beauty to your space.",
     rating: 5,
     duration: "30 mins",
-    price: "499-1999",
     button: "Add to cart",
     type: "Light Service",
     isPopular: true,
+    priceType: "range",
+    priceRange: {
+      min: 499,
+      max: 1999,
+    },
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946329/ElectServiceImages/quickCheckElectImg_q05jgo.png",
@@ -186,6 +214,7 @@ export const electData = [
     price: "299",
     button: "Add to cart",
     type: "Light Service",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946410/ElectServiceImages/sb-ser-img1_hexo12.png",
@@ -197,6 +226,7 @@ export const electData = [
     price: "349",
     button: "Add to cart",
     type: "Switch board",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946411/ElectServiceImages/sb-ser-img2_eoyphy.png",
@@ -208,6 +238,7 @@ export const electData = [
     price: "99",
     button: "Add to cart",
     type: "Switch board",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946411/ElectServiceImages/sb-ser-img3_eryjpi.png",
@@ -219,6 +250,7 @@ export const electData = [
     price: "149",
     button: "Add to cart",
     type: "Switch board",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946411/ElectServiceImages/sb-ser-img4_axo6bm.png",
@@ -230,6 +262,7 @@ export const electData = [
     price: "199",
     button: "Add to cart",
     type: "Switch board",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946411/ElectServiceImages/sb-ser-img5_c5zp5v.png",
@@ -241,6 +274,7 @@ export const electData = [
     price: "199",
     button: "Add to cart",
     type: "Switch board",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946411/ElectServiceImages/sb-ser-img6_nfxqfe.png",
@@ -252,6 +286,7 @@ export const electData = [
     price: "299",
     button: "Add to cart",
     type: "Switch board",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946411/ElectServiceImages/sb-ser-img7_beokx8.png",
@@ -263,6 +298,7 @@ export const electData = [
     price: "499",
     button: "Add to cart",
     type: "Switch board",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946329/ElectServiceImages/quickCheckElectImg_q05jgo.png",
@@ -271,9 +307,10 @@ export const electData = [
       "Fast inspection service to identify electrical issues quickly.",
     rating: 5,
     duration: "30 mins",
-    price: "120",
+    price: "299",
     button: "Add to cart",
     type: "Switch board",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946414/ElectServiceImages/wir-ser-img1_yczrro.png",
@@ -286,6 +323,7 @@ export const electData = [
     button: "Add to cart",
     type: "Wiring",
     isPopular: true,
+    priceType: "inspection",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946415/ElectServiceImages/wir-ser-img3_mheyly.png",
@@ -294,9 +332,11 @@ export const electData = [
       "Hidden and safe electrical wiring installation for a clean and modern interior look.",
     rating: 4,
     duration: "30 mins",
-    price: "299 per point",
+    price: "299",
     button: "Add to cart",
     type: "Wiring",
+    priceType: "unit",
+    unit: "per point",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946415/ElectServiceImages/wir-ser-img5_ppije7.png",
@@ -305,9 +345,11 @@ export const electData = [
       "Protective pipe wiring installation for safe and long-lasting electrical connections.",
     rating: 4,
     duration: "30 mins",
-    price: "199 per point",
+    price: "199",
     button: "Add to cart",
     type: "Wiring",
+    priceType: "unit",
+    unit: "per point",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946415/ElectServiceImages/wir-ser-img6_y28uzg.png",
@@ -316,9 +358,11 @@ export const electData = [
       "Simple and economical wiring installation using clips for quick and tidy electrical setup.",
     rating: 4,
     duration: "30 mins",
-    price: "99 per point",
+    price: "99",
     button: "Add to cart",
     type: "Wiring",
+    priceType: "unit",
+    unit: "per point",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946415/ElectServiceImages/wir-ser-img7_sbkps1.png",
@@ -327,9 +371,11 @@ export const electData = [
       "Neat casing-patti wiring solution to keep electrical cables safe and well-organized.",
     rating: 4,
     duration: "30 mins",
-    price: "149 per point",
+    price: "149",
     button: "Add to cart",
     type: "Wiring",
+    priceType: "unit",
+    unit: "per point",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946329/ElectServiceImages/quickCheckElectImg_q05jgo.png",
@@ -338,9 +384,10 @@ export const electData = [
       "Fast inspection service to identify electrical issues quickly.",
     rating: 5,
     duration: "30 mins",
-    price: "120",
+    price: "299",
     button: "Add to cart",
     type: "Wiring",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946409/ElectServiceImages/MCB-ser-img1_sshjpe.png",
@@ -352,6 +399,7 @@ export const electData = [
     price: "179",
     button: "Add to cart",
     type: "MCB & Submeter",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946410/ElectServiceImages/MCB-ser-img2_xltwzh.png",
@@ -364,6 +412,7 @@ export const electData = [
     button: "Add to cart",
     type: "MCB & Submeter",
     isPopular: true,
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946410/ElectServiceImages/MCB-ser-img3_fxowna.png",
@@ -375,6 +424,7 @@ export const electData = [
     price: "279",
     button: "Add to cart",
     type: "MCB & Submeter",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946410/ElectServiceImages/MCB-ser-img4_x40umo.png",
@@ -386,6 +436,7 @@ export const electData = [
     price: "279",
     button: "Add to cart",
     type: "MCB & Submeter",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946410/ElectServiceImages/MCB-ser-img5_lnvgxl.png",
@@ -397,6 +448,7 @@ export const electData = [
     price: "Site visit",
     button: "Add to cart",
     type: "MCB & Submeter",
+    priceType: "inspection",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946413/ElectServiceImages/subm-ser-img1_uopaui.png",
@@ -408,6 +460,7 @@ export const electData = [
     price: "299",
     button: "Add to cart",
     type: "MCB & Submeter",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946413/ElectServiceImages/subm-ser-img2_kcpiox.png",
@@ -419,6 +472,7 @@ export const electData = [
     price: "399",
     button: "Add to cart",
     type: "MCB & Submeter",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946414/ElectServiceImages/subm-ser-img3_svx48j.png",
@@ -430,6 +484,7 @@ export const electData = [
     price: "249",
     button: "Add to cart",
     type: "MCB & Submeter",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946414/ElectServiceImages/subm-ser-img4_t6zlpg.png",
@@ -441,6 +496,7 @@ export const electData = [
     price: "449",
     button: "Add to cart",
     type: "MCB & Submeter",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946329/ElectServiceImages/quickCheckElectImg_q05jgo.png",
@@ -449,9 +505,10 @@ export const electData = [
       "Fast inspection service to identify electrical issues quickly.",
     rating: 5,
     duration: "30 mins",
-    price: "120",
+    price: "299",
     button: "Add to cart",
     type: "MCB & Submeter",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946412/ElectServiceImages/sensor-ser-img1_zptew1.png",
@@ -463,6 +520,7 @@ export const electData = [
     price: "Site visit",
     button: "Add to cart",
     type: "Sensor & Automation",
+    priceType: "inspection",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946412/ElectServiceImages/sensor-ser-img2_enl3co.png",
@@ -474,6 +532,7 @@ export const electData = [
     price: "349",
     button: "Add to cart",
     type: "Sensor & Automation",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946412/ElectServiceImages/sensor-ser-img3_az9fds.png",
@@ -485,17 +544,7 @@ export const electData = [
     price: "599",
     button: "Add to cart",
     type: "Sensor & Automation",
-  },
-  {
-    img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946412/ElectServiceImages/sensor-ser-img4_uxvrio.png",
-    title: "Voice control setup",
-    description:
-      "Hands-free voice-controlled system installation to manage lights and appliances effortlessly.",
-    rating: 5,
-    duration: "30 mins",
-    price: "Upcoming soon",
-    button: "Add to cart",
-    type: "Sensor & Automation",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946413/ElectServiceImages/sensor-ser-img6_epuowd.png",
@@ -504,9 +553,11 @@ export const electData = [
       "Reliable water overflow alarm installation to prevent spillage and protect your home from water damage.",
     rating: 4.5,
     duration: "30 mins",
-    price: "499 per floor",
+    price: "499",
     button: "Add to cart",
     type: "Sensor & Automation",
+    priceType: "unit",
+    unit: "per floor",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946413/ElectServiceImages/sensor-ser-img7_nluif4.png",
@@ -515,19 +566,19 @@ export const electData = [
       "Advanced water automation sensor setup for smart, automated control of water systems and leak prevention.",
     rating: 4,
     duration: "30 mins",
-    price: "499 per floor",
+    price: "499",
     button: "Add to cart",
     type: "Sensor & Automation",
+    priceType: "unit",
+    unit: "per floor",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946413/ElectServiceImages/sensor-ser-img8_ma9aca.png",
     title: "Home automation setup",
     description:
       "Complete home automation installation for smart control of lights, appliances, and security systems.",
-    rating: 5,
     duration: "30 mins",
     price: "Upcoming soon",
-    button: "Add to cart",
     type: "Sensor & Automation",
   },
   {
@@ -540,6 +591,7 @@ export const electData = [
     price: "349",
     button: "Add to cart",
     type: "Sensor & Automation",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946329/ElectServiceImages/quickCheckElectImg_q05jgo.png",
@@ -548,8 +600,9 @@ export const electData = [
       "Fast inspection service to identify electrical issues quickly.",
     rating: 5,
     duration: "30 mins",
-    price: "120",
+    price: "299",
     button: "Add to cart",
     type: "Sensor & Automation",
+    priceType: "fixed",
   },
 ];

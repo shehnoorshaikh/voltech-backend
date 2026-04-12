@@ -241,7 +241,7 @@ router.get(
   async (req, res) => {
     // Check if user is blocked
     if (req.user.isBlocked) {
-      return res.redirect(`https://voltechservices.in/login?error=blocked`);
+      return res.redirect(`http://localhost:5173/login?error=blocked`);
     }
     const token = jwt.sign(
       { userId: req.user._id, role: req.user.role },
