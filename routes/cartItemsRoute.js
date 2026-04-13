@@ -17,6 +17,9 @@ router.post("/cart", verifyToken, checkBlocked, (req, res) => {
     price: Number(req.body.price.replace("₹", "")),
     count: 1,
     category: req.body.category,
+    priceType: req.body.priceType || "fixed", // ✅ ADDED
+    priceRange: req.body.priceRange, // ✅ ADDED
+    unit: req.body.unit, // ✅ ADDED
   };
   const exists = cartDB.find(
     (i) => i.userId === req.user._id.toString() && i.title === req.body.title,
