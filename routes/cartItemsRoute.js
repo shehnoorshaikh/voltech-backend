@@ -14,12 +14,12 @@ router.post("/cart", verifyToken, checkBlocked, (req, res) => {
     img: req.body.img,
     title: req.body.title,
     description: req.body.description,
-    price: Number(req.body.price.replace("₹", "")),
+    price: req.body.price,
     count: 1,
     category: req.body.category,
-    priceType: req.body.priceType || "fixed", // ✅ ADDED
-    priceRange: req.body.priceRange, // ✅ ADDED
-    unit: req.body.unit, // ✅ ADDED
+    priceType: req.body.priceType || "fixed",
+    priceRange: req.body.priceRange || null,
+    unit: req.body.unit || null,
   };
   const exists = cartDB.find(
     (i) => i.userId === req.user._id.toString() && i.title === req.body.title,
