@@ -15,6 +15,7 @@ export const elecPopularData = [
     duration: "30 mins",
     price: "120",
     type: "electPopular",
+    priceType: "fixed",
   },
   {
     img: ELECT_IMG_BASE + "light-ser-img2_vvmzup.png",
@@ -26,6 +27,7 @@ export const elecPopularData = [
     duration: "30 mins",
     price: "120",
     type: "electPopular",
+    priceType: "fixed",
   },
   {
     img: ELECT_IMG_BASE + "MCB-ser-img2_v4ecqf.png",
@@ -37,6 +39,7 @@ export const elecPopularData = [
     duration: "30 mins",
     price: "120",
     type: "electPopular",
+    priceType: "fixed",
   },
   {
     img: ELECT_IMG_BASE + "wl-ser-img2_bncuaa.png",
@@ -48,6 +51,7 @@ export const elecPopularData = [
     duration: "30 mins",
     price: "120",
     type: "electPopular",
+    priceType: "fixed",
   },
   {
     img: ELECT_IMG_BASE + "wir-ser-img1_xdvca5.png",
@@ -59,6 +63,7 @@ export const elecPopularData = [
     duration: "30 mins",
     price: "120",
     type: "electPopular",
+    priceType: "fixed",
   },
   {
     img: ELECT_IMG_BASE + "cd-ser-img1_q0nucv.png",
@@ -70,6 +75,7 @@ export const elecPopularData = [
     duration: "30 mins",
     price: "120",
     type: "electPopular",
+    priceType: "fixed",
   },
 ];
 
@@ -83,6 +89,7 @@ export const techPopularData = [
     duration: "30 mins",
     price: "120",
     type: "techPopular",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "geyser-ser-img1_jkzrml.png",
@@ -93,6 +100,7 @@ export const techPopularData = [
     duration: "30 mins",
     price: "120",
     type: "techPopular",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "tv-ser-img5_iutszb.png",
@@ -104,6 +112,7 @@ export const techPopularData = [
     duration: "30 mins",
     price: "120",
     type: "techPopular",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "wm-ser-img4_ugexo7.png",
@@ -115,6 +124,7 @@ export const techPopularData = [
     duration: "30 mins",
     price: "120",
     type: "techPopular",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "ro-ser-img4_b27hrg.png",
@@ -126,6 +136,7 @@ export const techPopularData = [
     duration: "30 mins",
     price: "120",
     type: "techPopular",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "tv-ser-img1_ycz3kg.png",
@@ -136,5 +147,6 @@ export const techPopularData = [
     duration: "30 mins",
     price: "120",
     type: "techPopular",
+    priceType: "fixed",
   },
 ];

@@ -580,6 +580,7 @@ export const electData = [
     duration: "30 mins",
     price: "Upcoming soon",
     type: "Sensor & Automation",
+    priceType: "fixed",
   },
   {
     img: "https://res.cloudinary.com/dsr9kgkoj/image/upload/v1774946413/ElectServiceImages/sensor-ser-img9_rvrw0y.png",

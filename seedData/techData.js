@@ -11,6 +11,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "AC Service",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "ac-ser-img2_xr6m0i.png",
@@ -20,6 +21,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "AC Service",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "ac-ser-img3_i2kxmb.png",
@@ -30,6 +32,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "AC Service",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "ac-ser-img4_kucsd4.png",
@@ -39,6 +42,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "AC Service",
+    priceType: "fixed",
     isPopular: true,
   },
   {
@@ -50,6 +54,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "AC Service",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "ac-ser-img6_stubiq.png",
@@ -60,6 +65,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "AC Service",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "ac-ser-img7_q8049d.png",
@@ -70,6 +76,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "AC Service",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "ac-ser-img8_tnqabj.png",
@@ -80,6 +87,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "AC Service",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "ac-ser-img9_kqr5ww.png",
@@ -90,6 +98,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "AC Service",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "quickCheckTechImg_c1syfy.png",
@@ -100,6 +109,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "AC Service",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "wm-ser-img1_ncnjyz.png",
@@ -110,6 +120,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Washing Machine",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "wm-ser-img2_c1rxjz.png",
@@ -120,6 +131,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Washing Machine",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "wm-ser-img3_y3nllv.png",
@@ -130,6 +142,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Washing Machine",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "wm-ser-img4_ugexo7.png",
@@ -140,6 +153,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Washing Machine",
+    priceType: "fixed",
     isPopular: true,
   },
   {
@@ -151,6 +165,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Washing Machine",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "quickCheckTechImg_c1syfy.png",
@@ -161,6 +176,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Washing Machine",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "refrigerator-ser-img1_sw3uni.png",
@@ -171,6 +187,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Refrigerator",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "refrigerator-ser-img2_wvfhv1.png",
@@ -181,6 +198,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Refrigerator",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "refrigerator-ser-img3_o3kcmq.png",
@@ -191,6 +209,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Refrigerator",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "quickCheckTechImg_c1syfy.png",
@@ -201,6 +220,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Refrigerator",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "ro-ser-img1_ydbue2.png",
@@ -211,6 +231,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Water Purifier",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "ro-ser-img2_klqsun.png",
@@ -220,6 +241,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Water Purifier",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "ro-ser-img3_stoxrb.png",
@@ -230,6 +252,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Water Purifier",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "geyser-ser-img4_gquane.png",
@@ -240,6 +263,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Water Purifier",
+    priceType: "fixed",
     isPopular: true,
   },
   {
@@ -251,6 +275,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Water Purifier",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "geyser-ser-img1_jkzrml.png",
@@ -260,6 +285,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Geyser",
+    priceType: "fixed",
     isPopular: true,
   },
   {
@@ -270,6 +296,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Geyser",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "geyser-ser-img3_bmrg6g.png",
@@ -279,6 +306,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Geyser",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "geyser-ser-img4_gquane.png",
@@ -288,6 +316,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Geyser",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "geyser-ser-img5_mdypam.png",
@@ -298,6 +327,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Geyser",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "quickCheckTechImg_c1syfy.png",
@@ -308,6 +338,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Geyser",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "oven-ser-img1_zw5zoa.png",
@@ -318,6 +349,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Microwave Oven",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "oven-ser-img2_czqvpl.png",
@@ -328,6 +360,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Microwave Oven",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "oven-ser-img3_jxwepn.png",
@@ -338,6 +371,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Microwave Oven",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "oven-ser-img4_g2cdsy.png",
@@ -348,6 +382,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Microwave Oven",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "quickCheckTechImg_c1syfy.png",
@@ -358,6 +393,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Microwave Oven",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "tv-ser-img1_ycz3kg.png",
@@ -367,6 +403,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Television",
+    priceType: "fixed",
     isPopular: true,
   },
   {
@@ -377,6 +414,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Television",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "tv-ser-img3_wvawoh.png",
@@ -386,6 +424,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Television",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "tv-ser-img4_j3xxfa.png",
@@ -395,6 +434,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Television",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "tv-ser-img5_iutszb.png",
@@ -405,6 +445,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Television",
+    priceType: "fixed",
     isPopular: true,
   },
   {
@@ -415,6 +456,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Television",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "tv-ser-img7_d5gdso.png",
@@ -424,6 +466,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Television",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "tv-ser-img8_ycqakz.png",
@@ -433,6 +476,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Television",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "tv-ser-img9_nflvik.png",
@@ -442,6 +486,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Television",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "tv-ser-img10_zjhfm6.png",
@@ -451,6 +496,7 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Television",
+    priceType: "fixed",
   },
   {
     img: TECH_IMG_BASE + "quickCheckTechImg_c1syfy.png",
@@ -461,5 +507,6 @@ export const techData = [
     duration: "30 mins",
     price: "120",
     type: "Television",
+    priceType: "fixed",
   },
 ];

@@ -21,6 +21,9 @@ const formatFlatData = (data, category) => {
       duration: s.duration,
       type: s.type,
       isPopular: s.isPopular,
+      priceType: s.priceType,
+      priceRange: s.priceRange,
+      unit: s.unit,
     });
   });
   return services;
