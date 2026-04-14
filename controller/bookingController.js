@@ -9,7 +9,14 @@ export const createBooking = async (req, res) => {
     const booking = await Booking.create({
       userId: req.user._id.toString(),
       bookingId,
-      services: req.body.services,
+      services: req.body.services.map((service) => ({
+        ...service,
+        price:
+          service.priceType === "fixed" || service.priceType === "unit"
+            ? service.price
+            : null,
+        priceRange: service.priceType === "range" ? service.priceRange : null,
+      })),
       addressDetails: req.body.addressDetails,
       schedule: req.body.schedule,
       totalAmount: req.body.totalAmount,
