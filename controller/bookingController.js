@@ -24,8 +24,10 @@ export const createBooking = async (req, res) => {
     cartDB.push(...filteredCart); // Add back non-user items
 
     res.status(201).json({ success: true, booking });
+    console.log(req.body);
   } catch (error) {
     res.status(500).json({ message: error.message });
+    console.log(req.body);
   }
 };
 
