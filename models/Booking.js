@@ -15,6 +15,10 @@ const bookingSchema = new mongoose.Schema(
         category: String,
         price: Number,
         quantity: Number,
+        priceType: {
+          type: String,
+          enum: ["fixed", "range", "unit", "inspection"],
+        },
       },
     ],
 
@@ -52,7 +56,7 @@ const bookingSchema = new mongoose.Schema(
       unique: true,
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 export default mongoose.model("Booking", bookingSchema);

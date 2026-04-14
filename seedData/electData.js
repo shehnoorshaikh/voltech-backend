@@ -167,6 +167,7 @@ export const electData = [
     duration: "30 mins",
     button: "Add to cart",
     type: "Light Service",
+    price: null,
     priceType: "range",
     priceRange: {
       min: 249,
@@ -182,6 +183,7 @@ export const electData = [
     duration: "30 mins",
     button: "Add to cart",
     type: "Light Service",
+    price: null,
     priceType: "range",
     priceRange: {
       min: 199,
@@ -198,6 +200,7 @@ export const electData = [
     button: "Add to cart",
     type: "Light Service",
     isPopular: true,
+    price: null,
     priceType: "range",
     priceRange: {
       min: 499,
