@@ -14,11 +14,17 @@ const bookingSchema = new mongoose.Schema(
         serviceName: String,
         category: String,
         price: Number,
-        quantity: Number,
         priceType: {
           type: String,
           enum: ["fixed", "range", "unit", "inspection"],
+          default: "fixed",
         },
+        priceRange: {
+          min: Number,
+          max: Number,
+        },
+        unit: String,
+        quantity: Number,
       },
     ],
 
