@@ -8,7 +8,7 @@ const serviceSchema = new mongoose.Schema(
     price: String,
     priceType: {
       type: String,
-      enum: ["fixed", "range", "unit", "inspection"],
+      enum: ["fixed", "range", "unit", "inspection", "soon"],
       required: true,
     },
     priceRange: {
